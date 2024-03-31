@@ -175,14 +175,13 @@ const experiences = [
 ];
 
 const projects = [
-
   {
     id: "project-1",
     name: "SocialPilot",
     description:
-      "A Platform for Recruiters to post work on different platform at the same time -> Currently Working on it " ,
+      "Developing a multi-platform recruitment tool for recruiters to simultaneously post job openings across various platforms.(Currently working on it)",
     detailed:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, nulla accusamus. Similique ut neque fugiat atque sed quasi odio voluptatem nemo nulla architecto cum nobis deserunt modi, commodi sunt omnis voluptatibus alias. Libero et id perferendis similique ex. Aspernatur eligendi neque expedita dicta quisquam maxime alias dolores consequuntur deserunt, a, at officiis! Adipisci earum aperiam quia sequi ex? Cupiditate recusandae aut iusto pariatur voluptatem earum consequatur consectetur incidunt modi assumenda praesentium inventore, fugit ea possimus, accusamus deserunt explicabo, molestiae necessitatibus veniam. Molestiae odio ducimus nihil excepturi. Consectetur fugiat sit dolore soluta eum saepe quis quas necessitatibus veniam molestiae sint magnam, ab alias? Obcaecati vitae sint, error voluptates adipisci omnis voluptate itaque quis. Nisi deleniti ex dolore et illum recusandae sint? Quidem quo facere mollitia dolor harum, fugiat accusamus. Sit, optio? Quia, rerum veritatis? Sit rerum corrupti minus mollitia neque? Rerum voluptas optio mollitia, nesciunt voluptatibus suscipit alias, dolore eveniet sint dicta expedita omnis quo ab doloremque deleniti minima porro velit quae totam, modi necessitatibus? Inventore consequatur nam, rem numquam dolorem impedit quo laborum recusandae modi totam, possimus iusto eveniet nemo quae atque incidunt harum alias dignissimos sit voluptatum delectus ducimus. Accusamus, tenetur porro consectetur tempore eligendi odio iusto molestias recusandae!",
+      "Developing a platform for recruiters to post job openings simultaneously on multiple platforms using the React frontend library for dynamic user interfaces, Node.js for server-side logic, Express.js for backend routing, and Tailwind CSS for efficient styling. This tech stack enables seamless integration of various job posting platforms and provides recruiters with a streamlined experience for managing job listings.",
     tags: [
       {
         name: "react",
@@ -209,7 +208,9 @@ const projects = [
     id: "project-2",
     name: "TradeX",
     description:
-      "A Frontend Project in which Figma Design transformed into Code lorem .",
+      "A Frontend Project in which Figma Design transformed into Code. (Currently working on it)",
+    detailed:
+    "Created a frontend project by transforming a Figma design into code using React for building dynamic user interfaces, Tailwind CSS for efficient styling, and APIs for integrating external data or services. This project ensures seamless translation of design concepts into functional web applications, offering a visually appealing and responsive user experience.",
     tags: [
       {
         name: "react",
@@ -229,6 +230,8 @@ const projects = [
     id: "project-3",
     name: "Chatter",
     description: "Real Time Chat Application",
+    detailed:
+    "Build a real-time chat application using Socket.IO, a library for enabling real-time, bidirectional communication between web clients and servers. Utilize Express.js, a web application framework for Node.js, to handle routing and server-side logic. Node.js will serve as the runtime environment. With these technologies combined, you can create a responsive and interactive chat experience where users can exchange messages instantly.",
     tags: [
       {
         name: "express js",
@@ -253,12 +256,15 @@ const projects = [
     ],
     image: chatter,
     repo: "https://github.com/adsulchiru17/chat-application",
-    demo: "https://chatter-eosin.vercel.app/",
+    demo: "https://chat-application-0a6.up.railway.app/",
   },
   {
     id: "project-4",
     name: "CoPass",
-    description: "A Platform where Coolies can connect with Passengers to carry load -> Porter Management System",
+    description:
+      "Introducing the Coopass a comprehensive platform facilitating seamless connections between coolies and passengers for load-carrying services, Implemented Idea towards it.",
+    detailed:
+      "Developed a Porter Management System using PHP for server-side scripting, HTML for structuring web pages, CSS for styling, JavaScript for client-side interactivity, and MySQL for database management. This platform facilitates connections between porters and passengers for load-carrying services, offering a user-friendly interface and efficient load management capabilities.",
     tags: [
       {
         name: "Php",
@@ -274,14 +280,39 @@ const projects = [
       },
     ],
     image: copass,
-    repo: "/",
-    demo: "https://coopasspm.000webhostapp.com/",
+    repo: "https://github.com/chiranjiv-d-adsul/Coopass_miniproject-php.git",
+    demo: "https://cooliepass.infinityfreeapp.com/",
   },
   {
     id: "project-5",
+    name: "Dummy Healthcentre",
+    description:
+      "In the dummy healthcare system, patients can explore various departments and services offered by the hospital and conveniently book appointments for those services, with the added requirement of logging in or registering to access these features. ",
+    detailed:" the dummy healthcare system, patients can easily navigate through the platform to explore various departments and services offered by the hospital. Upon registration and login, patients gain access to a comprehensive overview of available medical services, enabling them to efficiently book appointments for the required treatments or consultations.",
+      tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: health,
+    repo: "https://github.com/chiranjiv-d-adsul/DummyHealthcare-php.git",
+    demo: "http://dummyhealthcare.wuaze.com/",
+  },
+  {
+    id: "project-6",
     name: "Dummy Banking",
     description:
-      "1.The main aim of this project is it gives information about the functioning of databases in banking system   ",
+      "The main aim of this project is it gives information about the functioning of databases in banking system",
+    detailed: "The main aim of the project is to provide comprehensive information about the functioning of databases within a banking system. This includes demonstrating various operations such as checking account balances, adding money to an account, and transferring money between accounts, all using database operations.",
     tags: [
       {
         name: "php",
@@ -297,85 +328,11 @@ const projects = [
       },
     ],
     image: bank,
-    repo: "/",
+    repo: "https://github.com/chiranjiv-d-adsul/Dummybanking-php.git",
     demo: "https://devmshello.000webhostapp.com/",
   },
-]
-
-  const projects1 = [
-
-
 ];
 
 
-  // {
-  //   id: "project-6",
-  //   name: "Banking Mangement System",
-  //   description:
-  //     "1.The main aim of this project is it gives information about the functioning of databases in banking system  2.It manages all the transactions like transferring money,viewing accounts details,etc using Arithemtic Operations.",
-  //   tags: [
-  //     {
-  //       name: "php",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mysql",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: bank,
-  //   repo: "/",
-  //   demo: "https://devmshello.000webhostapp.com/",
-  // },
-  // {
-  //   id: "project-7",
-  //   name: "Banking Mangement System",
-  //   description:
-  //     "1.The main aim of this project is it gives information about the functioning of databases in banking system  2.It manages all the transactions like transferring money,viewing accounts details,etc using Arithemtic Operations.",
-  //   tags: [
-  //     {
-  //       name: "php",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mysql",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: bank,
-  //   repo: "/",
-  //   demo: "https://devmshello.000webhostapp.com/",
-  // },
-  // {
-  //   id: "project-8",
-  //   name: "Banking Mangement System",
-  //   description:
-  //     "1.The main aim of this project is it gives information about the functioning of databases in banking system  2.It manages all the transactions like transferring money,viewing accounts details,etc using Arithemtic Operations.",
-  //   tags: [
-  //     {
-  //       name: "php",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mysql",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: bank,
-  //   repo: "/",
-  //   demo: "https://devmshello.000webhostapp.com/",
-  // },
 
-export { services, technologies, projects, projects1, experiences };
+export { services, technologies, projects, experiences };
