@@ -288,8 +288,8 @@ const projects = [
     id: "project-5",
     name: "Dummy Healthcentre",
     description:
-      "In the dummy healthcare system, patients can explore various departments and services offered by the hospital and conveniently book appointments for those services, with the added requirement of logging in or registering to access these features. ",
-    detailed:" the dummy healthcare system, patients can easily navigate through the platform to explore various departments and services offered by the hospital. Upon registration and login, patients gain access to a comprehensive overview of available medical services, enabling them to efficiently book appointments for the required treatments or consultations.",
+      "In the dummy healthcare system, patients can explore various departments and services offered by the hospital with the added requirement of logging in or registering to access these features. ",
+    detailed:" the dummy healthcare system, patients can easily navigate through the platform to explore various departments and services offered by the hospital. Upon registration and login, patients gain access to a comprehensive overview of available medical services.",
       tags: [
       {
         name: "php",
