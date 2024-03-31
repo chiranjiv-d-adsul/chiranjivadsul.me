@@ -1,7 +1,7 @@
 import bwmap from "./backgrounds/bw-map.jpeg";
 import whiteabstract from "./backgrounds/white-abstract.png";
 import worldmap from "./backgrounds/world-map.png";
-
+import hospital from "./projects/hospital.png";
 import logo from "./logo/logo-black.png";
 import logotext from "./logo/logo-text-black.png";
 import linkedin from "./icons/linkedin.png";
@@ -56,6 +56,7 @@ export {
   chiranjiv,
   backend,
   ux,
+  hospital,
   frontend,
   prototyping,
   github,

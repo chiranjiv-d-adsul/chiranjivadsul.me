@@ -29,6 +29,7 @@ import {
   chatter,
   copass,
   bank,
+  hospital,
 } from "../assets";
 
 export const navLinks = [
