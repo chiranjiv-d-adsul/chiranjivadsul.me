@@ -139,9 +139,9 @@ const ProjectCard = ({
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className={`relative ${
-        active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
+        active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] "
       } flex items-center justify-center sm:min-w-[32%] min-w-[170px]
-      h-[440px] cursor-pointer card-shadow`}
+      h-[480px] cursor-pointer card-shadow`}
       onClick={handleCardClick}
     >
       <div
@@ -250,7 +250,7 @@ const Projects = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <div
-          className="mt-[50px] flex   lg:flex-row flex-col min-h-[100rem] sm:min-h-[70vh]  gap-5 "
+          className="mt-[50px] flex   lg:flex-row flex-col min-h-full sm:min-h-[70vh]  gap-5 "
           style={{
             overflowX: "auto",
             WebkitOverflowScrolling: "touch",
