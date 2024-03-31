@@ -304,7 +304,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: health,
+    image: hospital,
     repo: "https://github.com/chiranjiv-d-adsul/DummyHealthcare-php.git",
     demo: "http://dummyhealthcare.wuaze.com/",
   },
