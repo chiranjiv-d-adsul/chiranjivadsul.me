@@ -220,7 +220,7 @@ const Projects = () => {
     // restore scolling
   };
   return (
-    <div className="-mt-[6rem]">
+    <div className="-mt-[6rem] overflow:hidden">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Case Studies</p>
         <h2 className={`${styles.sectionHeadTextLight} `}>Projects.</h2>
