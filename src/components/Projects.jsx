@@ -139,8 +139,8 @@ const ProjectCard = ({
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className={`relative ${
-        active === id ? "lg:flex-[5] flex-[12]" : "lg:flex-[2] flex-[6]"
-      } flex items-center justify-center sm:min-w-[200px] min-w-[200px]
+        active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[2] flex-[6]"
+      } flex items-center justify-center sm:min-w-[32%] min-w-[200px]
       h-[600px] cursor-pointer card-shadow`}
       onClick={handleCardClick}
     >
