@@ -141,7 +141,7 @@ const ProjectCard = ({
       className={`relative ${
         active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[2] flex-[6]"
       } flex items-center justify-center sm:min-w-[32%] min-w-[200px]
-     sm:h-[480] h-[600px] cursor-pointer card-shadow`}
+     sm:h-[480px] h-[600px] cursor-pointer card-shadow`}
       onClick={handleCardClick}
     >
       <div
