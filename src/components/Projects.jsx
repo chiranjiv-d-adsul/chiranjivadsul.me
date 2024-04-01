@@ -220,7 +220,7 @@ const Projects = () => {
     // restore scolling
   };
   return (
-    <div className="-mt-[6rem] overflow-hidden">
+    <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Case Studies</p>
         <h2 className={`${styles.sectionHeadTextLight} `}>Projects.</h2>
@@ -244,7 +244,7 @@ const Projects = () => {
 
       <motion.div
         variants={staggerContainer}
-        initial="hide"
+        initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
