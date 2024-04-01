@@ -250,7 +250,7 @@ const Projects = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <div
-          className="mt-[50px] flex   lg:flex-row flex-col min-h-[100rem] sm:min-h-[70vh]  gap-5 "
+          className="mt-[50px] flex   lg:flex-row flex-col min-h-fit sm:min-h-[70vh]  gap-5 "
           style={{
             overflowX: "auto",
             WebkitOverflowScrolling: "touch",
