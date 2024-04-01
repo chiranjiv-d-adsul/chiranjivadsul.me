@@ -229,7 +229,7 @@ const Projects = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-4 text-[eerieBlack] sm:text-black text-[18px] max-w-3xl leading-[30px]  text-justify"
+          className="mt-4 text-[eerieBlack] sm:text-[black] text-[18px] max-w-3xl leading-[30px]  text-justify"
         >
           These projects demonstrate my expertise with practical examples of
           some of my work, including brief descriptions and links to code
