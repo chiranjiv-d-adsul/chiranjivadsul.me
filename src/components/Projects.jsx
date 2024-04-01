@@ -244,7 +244,7 @@ const Projects = () => {
 
       <motion.div
         variants={staggerContainer}
-        initial="hidden"
+        initial="hide"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
