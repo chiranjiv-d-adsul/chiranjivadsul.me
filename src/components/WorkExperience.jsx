@@ -172,7 +172,7 @@ const WorkExperience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  "resume link", //paste the link to your resume here
+                  "https://drive.google.com/file/d/1Brz-m8AHAn9oAMihz8uchWp7VlBkjnje/view?usp=sharing", //paste the link to your resume here
                   "_blank"
                 )
               }
@@ -187,13 +187,13 @@ const WorkExperience = () => {
                   .setAttribute("src", download);
               }}
             >
-            <a href="https://drive.google.com/file/d/1kmCHME7TL9B7AQyVbILMjCz04qd1V2Yy/view?usp=sharing">RESUME</a>
-              <img
+            <a href="https://drive.google.com/file/d/1Brz-m8AHAn9oAMihz8uchWp7VlBkjnje/view?usp=sharing">RESUME</a>
+              {/* <img
                 src={download}
                 alt="download"
                 className="download-btn sm:w-[26px] sm:h-[26px]
                 w-[23px] h-[23px] object-contain"
-              />
+              /> */}
             </button>
           </VerticalTimelineElement>
         </VerticalTimeline>
