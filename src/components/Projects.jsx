@@ -251,13 +251,8 @@ const Projects = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <div
-<<<<<<< HEAD
-          className="mt-[50px] flex   lg:flex-row flex-col min-h-[100rem] sm:min-h-[70vh]  gap-5  "
-=======
-          className="mt-[50px] flex   lg:flex-row flex-col min-h-[150rem] sm:min-h-[70vh]  gap-5 "
->>>>>>> 58b726772011d8709ca49deb9e28c4d40ee616f2
-          style={{
+        <div className="mt-[50px] flex   lg:flex-row flex-col min-h-[150rem] sm:min-h-[70vh]  gap-5 "
+        style={{
             overflowX: "auto",
             WebkitOverflowScrolling: "touch",
             scrollbarWidth: "none",

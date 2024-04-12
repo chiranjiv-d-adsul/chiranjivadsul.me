@@ -30,6 +30,8 @@ import {
   copass,
   bank,
   hospital,
+  agency,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -92,11 +94,11 @@ const technologies = [
     icon: javascript,
     color: "#F6DE1D",
   },
-  // {
-  //   name: 'TypeScript',
-  //   icon: typescript,
-  //      color:'',
-  // },
+  {
+    name: 'Next JS',
+    icon: nextjs,
+    color:'white',
+  },
 
   {
     name: "React JS",

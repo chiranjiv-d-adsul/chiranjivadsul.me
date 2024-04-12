@@ -118,7 +118,7 @@ const WorkExperience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  "https://github.com/adsulchiru17", //paste the link to your here
+                  "https://github.com/chiranjiv-d-adsul", //paste the link to your here
                   "_blank"
                 )
               }

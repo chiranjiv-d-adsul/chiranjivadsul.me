@@ -46,8 +46,12 @@ import oasis from "./company/oasis.png";
 import chatter from './projects/chatter.png';
 import socialpilot from "./projects/socialpilot.png";
 import bank from './projects/bank.png';
+import agency from './projects/agency.png';
+import nextjs from './tech/nextjs.svg';
 
 export {
+  nextjs,
+  agency,
   bwmap,
   whiteabstract,
   worldmap,

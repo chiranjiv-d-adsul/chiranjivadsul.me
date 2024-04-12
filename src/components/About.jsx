@@ -46,8 +46,8 @@ const About = () => {
         Passionate Web Developer with Good Hands on Practice. I have 2 years of
         experience in web development, I am proficient in front-end technologies
         such as HTML, CSS, JavaScript, React.jS, Tailwind CSS as well as
-        back-end technologies like PHP with database MySql and familiar with
-        Node.js, Express.js . If you're looking for a developer who can make
+        back-end technologies like PHP with database MySql and can work with Nextjs,
+        Node.js, Express.js, Mongo db, etc. If you're looking for a developer who can make
         your work easy, </p> <span className=" text-[red] flex text-justify">I'm here : )</span>
       </motion.p>
 
