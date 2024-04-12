@@ -184,7 +184,8 @@ const projects = [
     id: "project-1",
     name: "Agency blog",
     description:
-      "A sleek and interactive agency blog website, featuring visually engaging posts, intuitive navigation, and opportunities for reader interaction and exploration",
+      "A sleek and interactive agency blog website, featuring visually engaging posts, intuitive navigation, and opportunities for reader interaction and exploration 
+To login into the website enter-> Username: admin and Password also: admin",
     detailed:
       "This agency blog website, powered by Next.js, seamlessly blends sleek design with advanced interactivity. Leveraging Next.js's server-side rendering capabilities, pages load quickly and efficiently, providing users with a smooth browsing experience. ",
     tags: [
