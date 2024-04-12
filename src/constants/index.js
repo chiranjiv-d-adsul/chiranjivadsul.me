@@ -176,13 +176,44 @@ const experiences = [
 ];
 
 const projects = [
+
+
   {
     id: "project-1",
+    name: "Agency blog",
+    description:
+      "A sleek and interactive agency blog website, featuring visually engaging posts, intuitive navigation, and opportunities for reader interaction and exploration",
+    detailed:
+      "This agency blog website, powered by Next.js, seamlessly blends sleek design with advanced interactivity. Leveraging Next.js's server-side rendering capabilities, pages load quickly and efficiently, providing users with a smooth browsing experience. ",
+    tags: [
+      {
+        name: "next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoose",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node js js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: agency,
+    repo: "https://github.com/chiranjiv-d-adsul/Agency-fullstackproject_Nextjs",
+    demo: "https://agency-xi-one.vercel.app/",
+  },
+  {
+    id: "project-2",
     name: "SocialPilot",
     description:
       "Developing a multi-platform recruitment tool for recruiters to simultaneously post job openings across various platforms.(Currently working on it)",
     detailed:
-      "Developing a platform for recruiters to post job openings simultaneously on multiple platforms using the React frontend library for dynamic user interfaces, Node.js for server-side logic, Express.js for backend routing, and Tailwind CSS for efficient styling. This tech stack enables seamless integration of various job posting platforms and provides recruiters with a streamlined experience for managing job listings.",
+      "Developing a platform using react js, tailwindcss and node js:- for recruiters to post job openings simultaneously on multiple platforms using the React frontend library for dynamic user interfaces, Node.js for server-side logic, Express.js for backend routing, and Tailwind CSS for efficient styling. This tech stack enables seamless integration of various job posting platforms and provides recruiters with a streamlined experience for managing job listings.",
     tags: [
       {
         name: "react",
@@ -206,7 +237,7 @@ const projects = [
     demo: "/",
   },
   {
-    id: "project-2",
+    id: "project-3",
     name: "TradeX",
     description:
       "A Frontend Project in which Figma Design transformed into Code. (Currently working on it)",
@@ -224,11 +255,11 @@ const projects = [
       },
     ],
     image: tradex,
-    repo: "/",
-    demo: "/",
+    repo: "https://github.com/chiranjiv-d-adsul/Koinx-Frontend",
+    demo: "https://koinxfrontend.vercel.app/",
   },
   {
-    id: "project-3",
+    id: "project-4",
     name: "Chatter",
     description: "Real Time Chat Application",
     detailed:
@@ -260,7 +291,7 @@ const projects = [
     demo: "https://chat-application-0a6.up.railway.app/",
   },
   {
-    id: "project-4",
+    id: "project-5",
     name: "CoPass",
     description:
       "Introducing the Coopass a comprehensive platform facilitating seamless connections between coolies and passengers for load-carrying services, Implemented Idea towards it.",
@@ -285,7 +316,7 @@ const projects = [
     demo: "https://cooliepass.infinityfreeapp.com/",
   },
   {
-    id: "project-5",
+    id: "project-6",
     name: "Dummy Healthcentre",
     description:
       "In the dummy healthcare system, patients can explore various departments and services offered by the hospital with the added requirement of logging in or registering to access these features. ",
@@ -309,7 +340,7 @@ const projects = [
     demo: "http://dummyhealthcare.wuaze.com/",
   },
   {
-    id: "project-6",
+    id: "project-7",
     name: "Dummy Banking",
     description:
       "The main aim of this project is it gives information about the functioning of databases in banking system",
