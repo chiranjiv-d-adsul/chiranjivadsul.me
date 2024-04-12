@@ -141,9 +141,9 @@ const ProjectCard = ({
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className={`relative ${
-        active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[4]"
-      } flex items-center justify-center sm:min-w-[32%] min-w-[170px]
-      h-[480px] cursor-pointer card-shadow`}
+        active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[2] flex-[6]"
+      } flex items-center justify-center sm:min-w-[32%] min-w-[200px]
+     sm:h-[480px] h-[600px] cursor-pointer card-shadow`}
       onClick={handleCardClick}
     >
       <div
@@ -222,7 +222,7 @@ const Projects = () => {
     // restore scolling
   };
   return (
-    <div className="-mt-[6rem] overflow-hidden">
+    <div className="-mt-[6rem] overflow:hidden">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Case Studies</p>
         <h2 className={`${styles.sectionHeadTextLight} `}>Projects.</h2>
@@ -252,7 +252,11 @@ const Projects = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <div
+<<<<<<< HEAD
           className="mt-[50px] flex   lg:flex-row flex-col min-h-[100rem] sm:min-h-[70vh]  gap-5  "
+=======
+          className="mt-[50px] flex   lg:flex-row flex-col min-h-[150rem] sm:min-h-[70vh]  gap-5 "
+>>>>>>> 58b726772011d8709ca49deb9e28c4d40ee616f2
           style={{
             overflowX: "auto",
             WebkitOverflowScrolling: "touch",
