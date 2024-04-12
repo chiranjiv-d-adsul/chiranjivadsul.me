@@ -213,7 +213,7 @@ const projects = [
     id: "project-2",
     name: "SocialPilot",
     description:
-      "Developing a multi-platform recruitment tool for recruiters to simultaneously post job openings across various platforms.(Currently working on it)",
+      "Developing a multi-platform recruitment tool for recruiters to simultaneously post job openings across various platforms.(Currently working on it) Note: use sigin option",
     detailed:
       "Developing a platform using react js, tailwindcss and node js:- for recruiters to post job openings simultaneously on multiple platforms using the React frontend library for dynamic user interfaces, Node.js for server-side logic, Express.js for backend routing, and Tailwind CSS for efficient styling. This tech stack enables seamless integration of various job posting platforms and provides recruiters with a streamlined experience for managing job listings.",
     tags: [
@@ -236,7 +236,7 @@ const projects = [
     ],
     image: socialpilot,
     repo: "https://github.com/Abhishek-M-K/Social-Pilot-Frontend",
-    demo: "/",
+    demo: "https://social-pilot-frontend.vercel.app/",
   },
   {
     id: "project-3",
