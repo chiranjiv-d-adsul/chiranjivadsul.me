@@ -184,7 +184,7 @@ const projects = [
     id: "project-1",
     name: "Agency blog",
     description:
-      "A sleek and interactive agency blog website, featuring visually engaging posts, intuitive navigation, and opportunities for reader interaction and exploration 
+      "A sleek and interactive agency blog website, featuring visually engaging posts, intuitive navigation, and opportunities for reader interaction and exploration.<br>
 To login into the website enter-> Username: admin and Password also: admin",
     detailed:
       "This agency blog website, powered by Next.js, seamlessly blends sleek design with advanced interactivity. Leveraging Next.js's server-side rendering capabilities, pages load quickly and efficiently, providing users with a smooth browsing experience. ",
@@ -297,7 +297,8 @@ To login into the website enter-> Username: admin and Password also: admin",
     id: "project-5",
     name: "CoPass",
     description:
-      "Introducing the Coopass a comprehensive platform facilitating seamless connections between coolies and passengers for load-carrying services, Implemented Idea towards it.",
+      "Introducing the Coopass a comprehensive platform facilitating seamless connections between coolies and passengers for load-carrying services, Implemented Idea towards it.<br>
+To login into the website enter-> Username: chiranjiv and Password also: chiranjiv",",
     detailed:
       "Developed a Porter Management System using PHP for server-side scripting, HTML for structuring web pages, CSS for styling, JavaScript for client-side interactivity, and MySQL for database management. This platform facilitates connections between porters and passengers for load-carrying services, offering a user-friendly interface and efficient load management capabilities.",
     tags: [
@@ -322,7 +323,8 @@ To login into the website enter-> Username: admin and Password also: admin",
     id: "project-6",
     name: "Dummy Healthcentre",
     description:
-      "In the dummy healthcare system, patients can explore various departments and services offered by the hospital with the added requirement of logging in or registering to access these features. ",
+      "In the dummy healthcare system, patients can explore various departments and services offered by the hospital with the added requirement of logging in or registering to access these features. <br>
+You can directly acces services",
     detailed:" the dummy healthcare system, patients can easily navigate through the platform to explore various departments and services offered by the hospital. Upon registration and login, patients gain access to a comprehensive overview of available medical services.",
       tags: [
       {
@@ -334,7 +336,7 @@ To login into the website enter-> Username: admin and Password also: admin",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "css", 
         color: "pink-text-gradient",
       },
     ],
