@@ -242,7 +242,7 @@ const projects = [
     id: "project-3",
     name: "TradeX",
     description:
-      "A Frontend Project in which Figma Design transformed into Code. (Currently working on it)",
+      "A Frontend Project in which Figma Design transformed into Code. (Currently working on it) Note: rezize ur window to 90%",
     detailed:
     "Created a frontend project by transforming a Figma design into code using React for building dynamic user interfaces, Tailwind CSS for efficient styling, and APIs for integrating external data or services. This project ensures seamless translation of design concepts into functional web applications, offering a visually appealing and responsive user experience.",
     tags: [
