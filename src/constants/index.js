@@ -32,12 +32,15 @@ import {
   hospital,
   agency,
   nextjs,
+<<<<<<< HEAD
   conai,
   recruit,
   todo,
   userlist,
 
 
+=======
+>>>>>>> origin/main
 } from "../assets";
 
 export const navLinks = [
@@ -187,6 +190,7 @@ const projects = [
 
 
   {
+<<<<<<< HEAD
     "id": "project-1",
     "name": "AI Content Generator",
     "description": "An advanced AI-powered content generation tool, designed to streamline and expedite the process of creating written content. Utilizes machine learning models to generate diverse and relevant content based on user-provided prompts.",
@@ -221,6 +225,9 @@ const projects = [
 
   {
     id: "project-2",
+=======
+    id: "project-1",
+>>>>>>> origin/main
     name: "Agency blog",
     description:
       "A sleek and interactive agency blog website, featuring visually engaging posts, intuitive navigation, and opportunities for reader interaction and exploration. Note: To login into the website enter-> Username: admin and Password also: admin",
@@ -248,11 +255,45 @@ const projects = [
     repo: "https://github.com/chiranjiv-d-adsul/Agency-fullstackproject_Nextjs",
     demo: "https://agency-xi-one.vercel.app/",
   },
+<<<<<<< HEAD
 
   {
     id: "project-3",
 <<<<<<< HEAD
 =======
+=======
+  {
+    id: "project-2",
+    name: "SocialPilot",
+    description:
+      "Developing a multi-platform recruitment tool for recruiters to simultaneously post job openings across various platforms.(Currently working on it) Note: use sigin option",
+    detailed:
+      "Developing a platform using react js, tailwindcss and node js:- for recruiters to post job openings simultaneously on multiple platforms using the React frontend library for dynamic user interfaces, Node.js for server-side logic, Express.js for backend routing, and Tailwind CSS for efficient styling. This tech stack enables seamless integration of various job posting platforms and provides recruiters with a streamlined experience for managing job listings.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "taiwlind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node js js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: socialpilot,
+    repo: "https://github.com/Abhishek-M-K/Social-Pilot-Frontend",
+    demo: "https://social-pilot-frontend.vercel.app/",
+  },
+  {
+    id: "project-3",
+>>>>>>> origin/main
     name: "TradeX",
     description:
       "A Frontend Project in which Figma Design transformed into Code. (Currently working on it) Note: rezize ur window to 90%",
@@ -275,7 +316,10 @@ const projects = [
   },
   {
     id: "project-4",
+<<<<<<< HEAD
 >>>>>>> af7cabf167b481d2e4eb2de1b2f26342098d015a
+=======
+>>>>>>> origin/main
     name: "Chatter",
     description: "Real Time Chat Application",
     detailed:
@@ -306,6 +350,7 @@ const projects = [
     repo: "https://github.com/adsulchiru17/chat-application",
     demo: "https://chat-application-0a6.up.railway.app/",
   },
+<<<<<<< HEAD
 
   {
     "id": "project-4",
@@ -394,6 +439,10 @@ const projects = [
 
   {
     id: "project-7",
+=======
+  {
+    id: "project-5",
+>>>>>>> origin/main
     name: "CoPass",
     description:
       "Introducing the Coopass a comprehensive platform facilitating seamless connections between coolies and passengers for load-carrying services, Implemented Idea towards it. Note: To login into the website enter-> Username: chiranjiv and Password also: chiranjiv",
@@ -418,6 +467,7 @@ const projects = [
     demo: "https://cooliepass.infinityfreeapp.com/",
   },
   {
+<<<<<<< HEAD
     "id": "project-5",
     "name": "Recruits",
     "description": "Provide an efficient platform to search for candidates based on location and job role, and add new candidates to the database.",
@@ -474,6 +524,55 @@ const projects = [
 
 
 
+=======
+    id: "project-6",
+    name: "Dummy Healthcentre",
+    description:
+      "In the dummy healthcare system, patients can explore various departments and services offered by the hospital with the added requirement of logging in or registering to access these features. You can directly acces services",
+    detailed:" the dummy healthcare system, patients can easily navigate through the platform to explore various departments and services offered by the hospital. Upon registration and login, patients gain access to a comprehensive overview of available medical services.",
+      tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hospital,
+    repo: "https://github.com/chiranjiv-d-adsul/DummyHealthcare-php.git",
+    demo: "http://dummyhealthcare.wuaze.com/",
+  },
+  {
+    id: "project-7",
+    name: "Dummy Banking",
+    description:
+      "The main aim of this project is it gives information about the functioning of databases in banking system",
+    detailed: "The main aim of the project is to provide comprehensive information about the functioning of databases within a banking system. This includes demonstrating various operations such as checking account balances, adding money to an account, and transferring money between accounts, all using database operations.",
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bank,
+    repo: "https://github.com/chiranjiv-d-adsul/Dummybanking-php.git",
+    demo: "https://devmshello.000webhostapp.com/",
+  },
+>>>>>>> origin/main
 ];
 
 
