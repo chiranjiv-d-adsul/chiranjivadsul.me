@@ -187,7 +187,7 @@ const WorkExperience = () => {
                   .setAttribute("src", download);
               }}
             >
-            <a href="https://drive.google.com/file/d/1Brz-m8AHAn9oAMihz8uchWp7VlBkjnje/view?usp=sharing">RESUME</a>
+            <a href="https://drive.google.com/file/d/16XF9XMBwcKkAwZVs6LLmTRXw8T9ghnoK/view?usp=sharing">RESUME</a>
               {/* <img
                 src={download}
                 alt="download"
