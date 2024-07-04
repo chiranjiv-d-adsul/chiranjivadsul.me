@@ -48,11 +48,10 @@ import socialpilot from "./projects/socialpilot.png";
 import bank from './projects/bank.png';
 import agency from './projects/agency.png';
 import nextjs from './tech/nextjs.svg';
-<<<<<<< HEAD
+
 import conai from './projects/conai.png';
 import recruit from './projects/recruit.png';
 import todo from './projects/todo.png';
-import socialpilot from './projects/socialpilot.png';
 import userlist from './projects/userlist.png';
 
 export {
@@ -60,10 +59,6 @@ export {
   recruit,
   todo,
   userlist,
-=======
-
-export {
->>>>>>> origin/main
   nextjs,
   agency,
   bwmap,
