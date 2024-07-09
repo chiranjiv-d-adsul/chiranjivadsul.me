@@ -188,12 +188,13 @@ const WorkExperience = () => {
               }}
             >
             <a href="https://drive.google.com/file/d/1liU5AxMeGoSP-siR0-ErXW5VLVilCDoN/view?usp=sharing">RESUME</a>
-              {/* <img
+              <img
                 src={download}
                 alt="download"
                 className="download-btn sm:w-[26px] sm:h-[26px]
                 w-[23px] h-[23px] object-contain"
-              /> */}
+              />
+
             </button>
           </VerticalTimelineElement>
         </VerticalTimeline>
