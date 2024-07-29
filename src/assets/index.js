@@ -53,8 +53,10 @@ import conai from './projects/conai.png';
 import recruit from './projects/recruit.png';
 import todo from './projects/todo.png';
 import userlist from './projects/userlist.png';
+import be10x from './company/be10x.png';
 
 export {
+  be10x,
   conai,
   recruit,
   todo,

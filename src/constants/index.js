@@ -36,6 +36,7 @@ import {
   recruit,
   todo,
   userlist,
+  be10x,
 } from "../assets";
 
 export const navLinks = [
@@ -150,21 +151,31 @@ const technologies = [
     icon: git,
     color: "#F05146",
   },
-  // {
-  //   name: 'postgresql',
-  //   icon: postgresql,
-  //   color:'',
-  // },
+  {
+    name: 'postgresql',
+    icon: postgresql,
+    color:'black',
+  },
 ];
 
 const experiences = [
+
   {
-    title: "Web Developer Intern",
+    title: "Full Stack Intern -> Full Time",
+    company_name: `be iOx`,
+    icon: be10x,
+    iconBg: "black",
+    date: "July 2024 - Present",
+  },
+  {
+    title: "Web Developer Intern -> Part Time",
     company_name: "Phn Technology Pvt Ltd",
     icon: phn,
     iconBg: "white",
     date: "April 2023 - June 2023",
   },
+
+
   {
     title: "Web Developer Intern -> Program",
     company_name: "The Sparks Foundation",
@@ -172,13 +183,13 @@ const experiences = [
     iconBg: "white",
     date: "May 2023 - June 2023",
   },
-  {
-    title: "Frontend Developer Intern -> Program",
-    company_name: "Oasis InfoByte",
-    icon: oasis,
-    iconBg: "white",
-    date: "Aug 2023",
-  },
+  // {
+  //   title: "Frontend Developer Intern -> Program",
+  //   company_name: "Oasis InfoByte",
+  //   icon: oasis,
+  //   iconBg: "white",
+  //   date: "Aug 2023",
+  // },
 ];
 
 const projects = [
